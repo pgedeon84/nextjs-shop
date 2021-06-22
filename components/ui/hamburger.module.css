@@ -1,0 +1,17 @@
+.hamburger {
+    width: 37px;
+    height: 27px;
+    overflow: hidden;
+}
+
+.hamburger span {
+    display: block;
+    margin-bottom: 5px;
+    height: 4px;
+    background-color: #000000;
+}
+
+.hamburger span:last-child {
+    margin-bottom: 0;
+    width: 50%;
+}
