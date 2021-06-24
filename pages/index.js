@@ -1,5 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 import { Fragment } from "react";
+import Hero from "../components/home-page/hero";
 
 export default function HomePage() {
   return (
@@ -9,9 +10,7 @@ export default function HomePage() {
         <meta name="description" content="My Personal E-Commerce Store" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-       
-      </main>    
+      <Hero />
     </Fragment>
-  )
+  );
 }
