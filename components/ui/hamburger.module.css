@@ -1,13 +1,13 @@
 .hamburger {
-    width: 37px;
-    height: 27px;
+    width: 33px;
+    height: 37px;
     overflow: hidden;
 }
 
 .hamburger span {
     display: block;
-    margin-bottom: 5px;
-    height: 4px;
+    margin: 7px 0;
+    height: 2.5px;
     background-color: #000000;
 }
 

@@ -1,0 +1,148 @@
+.hero {
+    /* height: calc(100vh - 6rem); */
+    margin-bottom: 82px;
+    overflow: hidden;
+}
+
+.images {
+    height: 350px;
+    max-width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    visibility: hidden;
+    height: 0;
+    z-index: -10;
+}
+
+.logo img {
+    opacity: .09;
+}
+
+.imgRight {
+    width: 320px;
+    position: absolute;
+    top: 0;
+    left: -85px;
+    transform: matrix(0.87, 0.58, -0.46, 0.84, 0, 0);
+}
+
+.imgLeft {
+    width: 450px;
+    position: absolute;
+    top: 0;
+    right: -92px;
+    transform: matrix(0.88, -0.55, 0.44, 0.86, 0, 0);
+}   
+
+.content {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.content p {
+    opacity: .5;
+    line-height: 1.3;
+    margin-top: 1rem;
+}
+
+@media(min-width: 768px) {
+
+    .hero {
+        margin-bottom: 55px;
+    }
+
+    .images {
+        height: 410px;
+        max-width: 768px;
+    }
+
+    .logo {
+        width: 405px;
+        height: 395px;
+        visibility: visible;
+    }
+
+    .imgRight {
+        left: 20px;
+        width: 480px;
+    }
+
+    .imgLeft {
+        right: 75px;
+        width: 370px;
+    }
+
+    .content {
+        width: 365px;
+        margin: 20px auto;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+}
+
+    @media(min-width: 1345px) {
+        .hero {
+            margin-bottom: 55px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: last baseline;
+            height: 580px;
+        }
+
+        .images {
+            height: 100%;
+            width: 968px;
+            margin: auto 0;
+        }
+
+        .logo {
+            width: 405px;
+            height: 395px;
+            visibility: visible;
+        }
+
+        .imgRight {
+            left: -320px;
+            width: 680px;
+        }
+
+        .imgLeft {
+            right: 305px;
+            width: 440px;
+        }
+
+        .content {
+            width: 385px;
+            text-align: left;
+            margin: 50px 80px;
+        }
+
+        .content h1 {
+            font-size: 46px;
+        }
+
+        .content p {
+            font-size: 18px;
+        }
+    }

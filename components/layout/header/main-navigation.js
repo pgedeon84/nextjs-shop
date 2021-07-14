@@ -1,4 +1,4 @@
-import Hamburger from "../ui/hamburger";
+import Hamburger from "../../ui/hamburger";
 import Logo from "./logo";
 import Link from "next/link";
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
@@ -19,14 +19,14 @@ function MainNavigation() {
           <li>
             <Link href="/">
               <a>
-                <FiSearch size={30} />
+                <FiSearch size={25} />
               </a>
             </Link>
           </li>
           <li>
             <Link href="/">
               <a>
-                <FiShoppingBag size={30} />
+                <FiShoppingBag size={25} />
               </a>
             </Link>
           </li>

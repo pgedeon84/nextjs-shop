@@ -1,0 +1,27 @@
+.item {
+    width: 50%;
+    color: #fff;
+    font-size: 14px;
+    text-justify: distribute;
+    margin-bottom: 2rem;
+}
+
+.title {
+    opacity: .5;
+    letter-spacing: 1px;
+}
+
+.links {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.link {
+    margin: 8px 0;
+}
+
+@media(min-width: 1024px) {
+    .item {
+        width: 19%;
+    }
+}

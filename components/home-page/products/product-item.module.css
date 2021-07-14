@@ -1,0 +1,19 @@
+.product {
+ margin: 20px 0;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+
+.content p:first-of-type {
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.content .gender {
+    opacity: .5;
+    font-style: italic;
+}

@@ -1,0 +1,9 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 82px;
+    padding: 0;
+    overflow: hidden;
+}

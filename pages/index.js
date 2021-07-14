@@ -1,8 +1,11 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import Hero from "../components/home-page/hero";
+import Hero from "../components/home-page/hero/hero";
+import Categories from "../components/home-page/categories/categories";
+import Products from "../components/home-page/products/products";
+import MailingList from "../components/home-page/mailing-list/mailing-list";
 
-export default function HomePage() {
+function HomePage() {
   return (
     <Fragment>
       <Head>
@@ -11,6 +14,12 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Categories />
+      <Products title="New Arrivals" />
+      <Products title="Top Kicks" />
+      <MailingList />
     </Fragment>
   );
 }
+
+export default HomePage;
